@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Tile.qml</file>
+        <file>Spot.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>tile-creator.js</file>
+        <file>Board.qml</file>
+        <file>CustomButton.qml</file>
+        <file>tile-destroyer.js</file>
+    </qresource>
+</RCC>
