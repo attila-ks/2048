@@ -1,9 +1,9 @@
-#include "spot.h"
+#include "../headers/spot.h"
 
 using namespace std;
 
 Spot::Spot() :
-  mTile(std::nullopt) {}
+  mTile(nullopt) {}
 
 
 optional<Tile> Spot::tile() const

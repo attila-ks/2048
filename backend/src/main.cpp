@@ -1,4 +1,4 @@
-#include "game.h"
+#include "../headers/game.h"
 #include <QGuiApplication>
 #include <QMetaType>
 #include <QQmlApplicationEngine>
@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
   Game& game = Game::instance();
   QQmlApplicationEngine engine;
   engine.rootContext()->setContextProperty(QStringLiteral("game"), &game);
-  const QUrl url(QStringLiteral("qrc:/main.qml"));
+  const QUrl url(QStringLiteral("qrc:/frontend/main.qml"));
 
   QObject::connect(
       &engine, &QQmlApplicationEngine::objectCreated, &app,

@@ -1,4 +1,4 @@
-#include "tile.h"
+#include "../headers/tile.h"
 
 Tile::Tile(const int value) :
   mValue(value)

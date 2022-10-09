@@ -1,5 +1,5 @@
-#include "board.h"
-#include "game.h"
+#include "../headers/board.h"
+#include "../headers/game.h"
 #include <cstdlib>
 #include <ctime>
 
